@@ -59,8 +59,12 @@
 
 
 <div id="hello">
+<div align="right">
+
+
 
 <b-button v-b-modal.modal-1 variant="primary" >Add to Subject</b-button>
+
 
     <b-modal id="modal-1" title="ADD SUBJECT DETAILS" hide-footer>
     <table>
@@ -70,10 +74,11 @@
     <tr><td>Board</td><td><input type="text" v-model="brd"></td></tr>
     <tr><td><button @click="addTableRow()" >ADD SUBJECT</button></td></tr>
     
+    
     </table>
   </b-modal>
 <b-button  @click="deleteTableRow()" variant="danger">Remove</b-button>
-
+</div>
  
   
 <br>
